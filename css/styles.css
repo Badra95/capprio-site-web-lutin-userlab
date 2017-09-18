@@ -8,13 +8,13 @@ body{
 }
 
 video{
-  position: absolute;
-  top:0;
-  left:0;
-  object-fit: fill;
-  width: 100%;
-  height: 970px;
-  z-index: -1;
+	position: absolute;
+	top:0;
+	left:0;
+	object-fit: fill;
+	width: 100%;
+	height: 970px;
+	z-index: -1;
 }
 
 .titre{
@@ -26,40 +26,35 @@ nav{
 	background-color: black;
 	color: white;
 	font-size: 15px;
-
 }
 
 nav li{
 	color: white;
-
 }
 
 nav li:hover{
 	text-decoration: line-through;
 	color: white;
-
 }
 
-.active{
- 	text-decoration: line-through;
+nav button{
+	background: #000;
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 30px auto;
+	font-size: 1rem;
+	display: block;
+	outline: none;
 }
 
-article{
-	
-	font-size: 17px;
-	font-family: 'Oswald', sans-serif;
+a{
+	color: inherit;
 }
 
-article i{
-	-webkit-text-stroke: 1px background-color;
-}
-
-
-article h2{
-	border: 1px solid white;
-	font-family: 'Oswald', sans-serif;
-	letter-spacing: 2px;
-
+a:hover{
+	text-decoration: none;
+	color: inherit;
 }
 
 h1:hover span {
@@ -92,31 +87,26 @@ h1:after {
 	opacity: 0;
 }
 
-a{
-	color: inherit;
+.active{
+ 	text-decoration: line-through;
 }
 
-a:hover{
-	text-decoration: none;
-	color: inherit;
+article{
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
 }
 
-.equipe p{
-	line-height: 8px;
-
+article i{
+	-webkit-text-stroke: 1px background-color;
 }
 
-nav button{
-	background: #000;
-	border: 3px solid #fff;
-	color: #fff;
-	padding: 10px 20px;
-	margin: 30px auto;
-	font-size: 1rem;
-	display: block;
-	outline: none;
+
+article h2{
+	border: 1px solid white;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
 }
-	
+
 .text{
 /*	background: linear-gradient( to top,#363739,#9aa0ab,#fff );
 	-webkit-background-clip: text;
@@ -186,6 +176,7 @@ h3, h4{
 .equipe p{
 	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
+	line-height: 8px;
 }
 
 .interview{
